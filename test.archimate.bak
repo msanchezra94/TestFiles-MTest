@@ -4,7 +4,6 @@
   <folder name="Business" id="6f1aa8b0-dd07-4cf4-9039-891ec3209514" type="business">
     <element xsi:type="archimate:BusinessActor" name="Business Actor" id="cd5a1a31-deed-44fd-9065-d21c18e4671e"/>
     <element xsi:type="archimate:BusinessRole" name="Business Role" id="bd263d74-5c39-4257-9564-8438fe5eedf9"/>
-    <element xsi:type="archimate:BusinessObject" name="Business Object" id="527c6bc7-9386-4e0d-b622-dfcd678308d5"/>
   </folder>
   <folder name="Application" id="cdd7057f-04ea-4830-9698-27c5096530ea" type="application"/>
   <folder name="Technology &amp; Physical" id="94af9025-0e00-498e-8d09-10a2496c067c" type="technology"/>
@@ -13,7 +12,6 @@
   <folder name="Other" id="cabccb1f-e88e-48a6-b8c0-ef84b51fecee" type="other"/>
   <folder name="Relations" id="79b478d8-f4b1-4b83-8422-19dbc28fcb8d" type="relations">
     <element xsi:type="archimate:AssignmentRelationship" id="ce273a6b-5916-4cfb-b09c-b8d1b7c8634a" source="cd5a1a31-deed-44fd-9065-d21c18e4671e" target="bd263d74-5c39-4257-9564-8438fe5eedf9"/>
-    <element xsi:type="archimate:AccessRelationship" id="0e734454-ce94-4fe7-a71e-41f64ca5cc87" source="bd263d74-5c39-4257-9564-8438fe5eedf9" target="527c6bc7-9386-4e0d-b622-dfcd678308d5"/>
   </folder>
   <folder name="Views" id="b3ed0530-0f92-430d-876f-6b96f16135c0" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="920d723f-5fe7-4279-9dd7-43452944886e">
@@ -23,10 +21,6 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="68019fa8-6041-435b-a655-4b19d87d8367" targetConnections="ca0d09c3-10e0-40e5-9384-dff94f75d9da" archimateElement="bd263d74-5c39-4257-9564-8438fe5eedf9">
         <bounds x="608" y="387" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="21652d97-057e-4a4d-9a99-68268b55d81c" source="68019fa8-6041-435b-a655-4b19d87d8367" target="bb93ae14-0944-4aec-82b4-bdefabd0d0b4" archimateRelationship="0e734454-ce94-4fe7-a71e-41f64ca5cc87"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="bb93ae14-0944-4aec-82b4-bdefabd0d0b4" targetConnections="21652d97-057e-4a4d-9a99-68268b55d81c" archimateElement="527c6bc7-9386-4e0d-b622-dfcd678308d5">
-        <bounds x="819" y="408" width="120" height="55"/>
       </child>
     </element>
   </folder>
