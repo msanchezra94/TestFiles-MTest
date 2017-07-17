@@ -28,13 +28,35 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="64910c9c-0b5b-4656-bd50-20e49c1b2980"
       targetConnections="fe90dcf4-6ce6-4f35-86f3-c6cb88c6dc3f">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="6d87b697-2f2f-4fbf-a23b-2df8e431f86d"
+        source="64910c9c-0b5b-4656-bd50-20e49c1b2980"
+        target="4af5a676-7421-4412-a577-fa2d9c8a1397">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_153d5d78-9eb5-45c7-a137-746e3e69fd8c.xml#153d5d78-9eb5-45c7-a137-746e3e69fd8c"/>
+    </sourceConnections>
     <bounds
-        x="446"
-        y="368"
+        x="321"
+        y="288"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_6ad0b771-a548-415b-b2d5-c386693ee9d0.xml#6ad0b771-a548-415b-b2d5-c386693ee9d0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="4af5a676-7421-4412-a577-fa2d9c8a1397"
+      targetConnections="6d87b697-2f2f-4fbf-a23b-2df8e431f86d">
+    <bounds
+        x="321"
+        y="420"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Device"
+        href="Device_901fc9a4-fbb2-4258-be7c-43d5ef634601.xml#901fc9a4-fbb2-4258-be7c-43d5ef634601"/>
   </children>
 </archimate:ArchimateDiagramModel>
